@@ -1,0 +1,16 @@
+# Configuration for density matrix experiments
+defaults:
+  - ../base
+
+experiment:
+  name: "density_matrix_validation"
+
+quantum:
+  n_emotions: 7
+  validate_physicality: true
+  
+tests:
+  - purity_bounds
+  - coherence_measures  
+  - entropy_properties
+  - ambivalence_vs_uncertainty

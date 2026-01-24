@@ -1,0 +1,17 @@
+# Configuration for decoherence cascade experiments
+defaults:
+  - ../base
+
+experiment:
+  name: "decoherence_cascade"
+
+hierarchy:
+  # Test different decoherence rates
+  gamma_reactive: [0.1, 0.5, 1.0]
+  gamma_adaptive: [0.5, 1.0, 2.0]
+  gamma_reflective: [2.0, 5.0, 10.0]
+  
+analysis:
+  - coherence_decay_curves
+  - timescale_validation
+  - information_loss

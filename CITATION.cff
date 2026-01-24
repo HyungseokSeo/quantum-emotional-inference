@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Henry"
+    affiliation: "Chungbuk National University"
+title: "Quantum Emotional Inference: A Framework for Modeling Affective States with Quantum-Inspired Formalisms"
+version: 0.1.0
+date-released: 2025-01-11
+url: "https://github.com/yourusername/quantum-emotional-inference"
+license: Apache-2.0
+type: software
+keywords:
+  - quantum cognition
+  - emotional inference
+  - active inference
+  - free energy principle
+  - affective computing
+  - density matrix
+  - deep learning
+abstract: >-
+  A theoretical and computational framework for modeling emotional states 
+  using quantum-inspired formalisms, hierarchical Active Inference, and 
+  Free Energy dynamics. The framework proposes that genuine artificial 
+  emotion requires quantum-inspired representational formalism capturing 
+  the superposition of affective states before expression, and architectural 
+  grounding in Free Energy minimization such that the system's continued 
+  operation depends on successful emotional inference.
+repository-code: "https://github.com/yourusername/quantum-emotional-inference"
+preferred-citation:
+  type: thesis
+  authors:
+    - family-names: "Henry"
+      affiliation: "Chungbuk National University"
+  title: "Quantum Emotional Inference and the Collapse of Affect: Toward Artificial Systems with Existential Stakes"
+  year: 2026
+  institution:
+    name: "Chungbuk National University"
+  thesis-type: "Ph.D. Dissertation"
