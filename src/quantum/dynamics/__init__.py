@@ -12,6 +12,7 @@ from .schrodinger import SchrodingerDynamics
 from .lindblad import LindbladDynamics, LindbladOperator
 from .decoherence import Decoherence, DephasingChannel, AmplitudeDamping
 from .quantum_channel import QuantumChannel, KrausChannel
+from . import liouvillian
 
 __all__ = [
     'SchrodingerDynamics',
@@ -22,4 +23,5 @@ __all__ = [
     'AmplitudeDamping',
     'QuantumChannel',
     'KrausChannel',
+    'liouvillian',
 ]
